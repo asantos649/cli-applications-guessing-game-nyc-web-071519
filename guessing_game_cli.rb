@@ -2,7 +2,7 @@ def run_guessing_game
   num = rand(6)+1
   puts "Guess a number between 1 and 6"
   guess = gets
-  if guess = num
+  if guess == num
     puts "You guessed the correct number"
   elsif guess = 'exit'
     puts "Goodbye!"
